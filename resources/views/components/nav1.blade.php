@@ -9,7 +9,7 @@
                 </a>
                 <!-- Nav Links -->
                 <ul class="hidden md:flex px-4 mx-auto font-semibold font-heading space-x-12">
-                    <li><a class="hover:text-green-200" href="{{route('/')}}">Home</a></li>
+                    <li><a class="hover:text-green-200" href="{{route('home')}}">Home</a></li>
                     <li><a class="hover:text-green-200" href="{{route('profile')}}">Perfil</a></li>
 
                     @if (Route::has('login'))
